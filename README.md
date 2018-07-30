@@ -20,6 +20,15 @@ git reset --hard <old-commit-id>
 git push -f origin <branch-name>
 ```
 
+## Split and merge files
+```bash
+# Splited large files in cmd
+split -b <size kilobytes>k <file name> <file splited name>
+
+# Merge splited files
+cat <file name 1> <file name 2> <...> > <file name and extension>
+```
+
 ## Visual studio code extensions
 
 ```txt
